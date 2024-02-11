@@ -12,7 +12,6 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  target: 'serverless', // Required for static HTML export
   // Add any other configuration options you need
 
   // Configure Next.js to use output: export
