@@ -4,7 +4,10 @@ const nextConfig = {
     serverActions: true,
   },
   output: 'export',
-  distDir: 'build',
+  distDir: 'dist',
+  images : {
+    unoptimized: true
+  }
 };
 
 module.exports = nextConfig;

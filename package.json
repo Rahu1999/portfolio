@@ -4,12 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "lint": "next lint",
+
+    "dev": "next",       
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start", 
+    "prod": "next export"  
   },
   "dependencies": {
     "@react-email/components": "^0.0.7",
