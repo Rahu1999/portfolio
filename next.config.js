@@ -9,6 +9,7 @@ const nextConfig = {
   //     },
   //   ],
   // },
+  fallback: false,
   experimental: {
     serverActions: true,
   },
