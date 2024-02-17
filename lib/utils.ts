@@ -25,15 +25,23 @@ export const getErrorMessage = (error: unknown): string => {
   return message;
 };
 
-export function calculateExperience(joiningDate: Date): number {
-  const currentDate = new Date();
-  
-  // Calculate the difference in milliseconds between the current date and the joining date
-  const timeDiff = currentDate.getTime() - joiningDate.getTime();
-  
-  // Convert milliseconds to years
-  const yearsExperience = timeDiff / (1000 * 60 * 60 * 24 * 365.25);
-  
-  // Return the years of experience rounded to one decimal place
-  return parseFloat(yearsExperience.toFixed(1));
+export function calculateExperience(joiningDateString: string): string {
+  // Parse the joining date string into a Date object
+  const joiningDate = new Date(joiningDateString.split('-').reverse().join('-'));
+
+  // Calculate the current date
+  const today = new Date();
+
+  // Calculate the difference in years and months
+  let years = today.getFullYear() - joiningDate.getFullYear();
+  let months = today.getMonth() - joiningDate.getMonth() + 1;
+
+  // Adjust months if necessary
+  if (months < 0) {
+    years -= 1;
+    months += 12;
+  }
+
+  // Return the experience in the desired format
+  return `${years}.${months} years`;
 }

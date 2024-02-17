@@ -68,7 +68,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm {userName}.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">{calculateExperience(new Date('2021-07-01'))} </span> of experience. I enjoy
+        <span className="font-bold">{calculateExperience("01-07-2021")} </span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>

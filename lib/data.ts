@@ -10,6 +10,7 @@ import { calculateExperience } from "./utils";
 
 export const userName = "Rahul"
 export const userPhoto = rahulProfileImg
+export const userEmail = "rahulrajbhar19999@gmail.com"
 
 export const links = [
   {
@@ -61,7 +62,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Mumbai, Andheri(E)",
     description:
-      `I worked as a full-stack developer for ${calculateExperience(new Date('2021-07-01'))} years. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.`,
+      `I worked as a full-stack developer for ${calculateExperience("01-07-2021")} years. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.`,
       // "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
