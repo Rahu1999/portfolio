@@ -4,7 +4,7 @@ const nextConfig = {
     serverActions: true,
   },
   // output: 'export',
-  // distDir: 'dist',
+  distDir: 'dist',
   // images : {
   //   unoptimized: true
   // }
