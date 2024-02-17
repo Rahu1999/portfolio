@@ -37,7 +37,7 @@ export default function Contact() {
         <a className="underline" href={`mailto:${userEmail}`}>
           {userEmail}
         </a>{" "}
-        {/* or through this form. */}
+         or through this form.
       </p>
 
       <form
