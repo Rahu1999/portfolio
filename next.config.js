@@ -3,8 +3,8 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  // output: 'export',
-  // distDir: 'dist',
+  output: 'export',
+  distDir: 'dist',
   // images : {
   //   unoptimized: true
   // }
