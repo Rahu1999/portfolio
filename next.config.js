@@ -3,11 +3,11 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  output: 'export',
+  // output: 'export',
   // distDir: 'dist',
-  images : {
-    unoptimized: true
-  }
+  // images : {
+  //   unoptimized: true
+  // }
 };
 
 module.exports = nextConfig;
