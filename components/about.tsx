@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        AAfter completing my master's degree in{" "}
+        After completing my master's degree in{" "}
         <span className="font-medium">Computer Science</span>, I started learning {" "}<span className="font-medium">full-stack web development</span>
          and also I do coding on Hackrank .{" "}
         <span className="italic">My favorite part of programming</span> is the
