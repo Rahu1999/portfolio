@@ -107,6 +107,7 @@ export const skillsData = [
   "Tailwind",
   // "Prisma",
   "MongoDB",
+  "Docker",
   "RabbitMQ",
   "NGNIX",
   "PM2",
