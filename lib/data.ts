@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact,FaAngular } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import examImg from "@/public/exam.png";
 import levelNextImg from "@/public/levelnext.png";
@@ -59,14 +59,22 @@ export const experiencesData = [
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Software Developer",
     location: "Mumbai, Andheri(E)",
     description:
-      `I worked as a full-stack developer for ${calculateExperience("01-07-2021")} years. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.`,
+      `I worked as a Developer developer for 3 years. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB.`,
       // "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021 - 2024",
   },
+  {
+    "title": "Full-Stack Developer",
+    "location": "Mumbai, Goregaon(E)",
+    "description":
+      `I have been working as a full-stack developer for ${calculateExperience("01-07-2021")} years, focusing primarily on the MEAN stack. My role is heavily centered around front-end development using Angular, where I contribute to building scalable and responsive web applications.`,
+    "icon": React.createElement(FaAngular),
+    "date": "2024 - present",
+  }
 ] as const;
 
 export const projectsData = [
