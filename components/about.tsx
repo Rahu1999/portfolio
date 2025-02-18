@@ -40,7 +40,7 @@ export default function About() {
         video games, watching movies, and playing cricket. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about message broker{" "}
-        {/* <span className="font-medium">rabbitMQ</span> */}
+        <span className="font-medium">rabbitMQ</span>
       </p>
     </motion.section>
   );
